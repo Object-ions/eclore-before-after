@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 :root {
-  color-scheme: dark;
-  --bg: #050505;
-  --fg: #f5f5f5;
-  --muted: #9a9a9a;
-  --line: #242424;
+  color-scheme: light;
+  --bg: #f7f7f2;
+  --fg: #080808;
+  --muted: #707070;
+  --line: #d8d8d0;
 }
 
 * { box-sizing: border-box; }
@@ -18,4 +18,4 @@ body {
   color: var(--fg);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-::selection { background: #fff; color: #000; }
+::selection { background: #080808; color: #fff; }
